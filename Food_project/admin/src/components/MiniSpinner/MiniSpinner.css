@@ -1,0 +1,21 @@
+.mini-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5em;
+}
+
+.mini-cont .spinner {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #bdbdbd;
+  border-top-color: tomato;
+  border-radius: 50%;
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

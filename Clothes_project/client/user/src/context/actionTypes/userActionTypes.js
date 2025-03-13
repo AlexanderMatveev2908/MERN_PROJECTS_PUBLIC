@@ -1,0 +1,18 @@
+export const userActionTypes = {
+  SET_VAL: "SET_VAL",
+  CLEAN_VALS: "CLEAN_VALS",
+  LOGOUT: "LOGOUT",
+  SET_CURR_FORM: "SET_CURR_FORM",
+  SET_FORM_LOADING: "SET_FORM_LOADING",
+  SET_TOKEN: "SET_TOKEN",
+};
+
+export const {
+  SET_VAL,
+  CLEAN_VALS,
+  SET_USER,
+  LOGOUT,
+  SET_CURR_FORM,
+  SET_FORM_LOADING,
+  SET_TOKEN,
+} = userActionTypes;

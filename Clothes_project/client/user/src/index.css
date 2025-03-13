@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Sour Gummy";
+}
+
+a.active hr {
+  display: block;
+}
+
+@media (max-width: 639px) {
+  a.active {
+    background: #222;
+    color: whitesmoke;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button:disabled {
+  opacity: 0.5;
+}

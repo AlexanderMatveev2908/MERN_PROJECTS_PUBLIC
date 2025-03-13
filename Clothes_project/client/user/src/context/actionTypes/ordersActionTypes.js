@@ -1,0 +1,8 @@
+export const ordersActionTypes = {
+  SET_ORDERS: "SET_ORDERS",
+  SET_ORDERS_LOADING: "SET_ORDERS_LOADING",
+  SET_ORDERS_ERROR: "SET_ORDERS_ERROR",
+};
+
+export const { SET_ORDERS, SET_ORDERS_LOADING, SET_ORDERS_ERROR } =
+  ordersActionTypes;
